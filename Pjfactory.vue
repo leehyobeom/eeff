@@ -169,44 +169,4 @@
     }
 
     </style>
-        <!-- <div class="position-absolute pj">
-          <transition v-on:enter="enter" v-on:leave="leave">
-          <img name="1" class="img-fluid" v-if="show1" :src="require('@/assets/pjfactory/test_image_1.jpeg')"  alt="Responsive image">
-          </transition>
-          <button v-if="show1" class="btn "v-on:click="show1=!show1; show2=!show2; position=[50,70]; stateIdx=2; back=false;" style="position: absolute; left: calc( 50% - 20px ); top:calc( 70% - 20px );" >
-            <img :src="require('@/assets/pjfactory/icon.png')">
-          </button>
-          <button v-if="show1" class="btn "v-on:click="show1=!show1; show3=!show3; position=[5,40]; stateIdx=3; back=false;" style="position: absolute; left: calc( 5% - 20px ); top:calc( 40% - 20px );" >
-            <img :src="require('@/assets/pjfactory/icon.png')">
-          </button>
-        </div>
-
-        <div class="position-absolute">
-          <transition  v-on:enter="enter" v-on:leave="leave">
-              <img name="2" class="img-fluid" v-if="show2" :src="require('@/assets/pjfactory/test_image_2.jpeg')" alt="Responsive image">
-          </transition>
-          <button v-if="show2" class="btn "v-on:click="show2=!show2; show4=!show4; position=[50,30]; stateIdx=4; back=false;" style="position: absolute; left: calc( 50% - 20px ); top:calc( 30% - 20px );" >
-            <img :src="require('@/assets/pjfactory/icon.png')">
-          </button>
-          <button v-if="show2"  class="btn "v-on:click="show1=!show1; show2=!show2; stateIdx=1; position=[50,70]; back=true;" style="position: absolute; left: calc( 50% - 50px ); top:calc( 80% - 50px );" >
-            <img :src="require('@/assets/pjfactory/back.png')">
-          </button>
-        </div>
-
-        <div class="position-absolute">
-          <transition  v-on:enter="enter" v-on:leave="leave">
-              <img name="3" class="img-fluid" v-if="show3" :src="require('@/assets/pjfactory/test_image_3.jpeg')" alt="Responsive image">
-          </transition>
-          <button v-if="show3"  class="btn "v-on:click="show1=!show1; show3=!show3; stateIdx=1; back=true;" style="position: absolute; left: calc( 50% - 50px ); top:calc( 80% - 50px );" >
-            <img :src="require('@/assets/pjfactory/back.png')">
-          </button>
-        </div>
-
-        <div class="position-absolute">
-          <transition  v-on:enter="enter" v-on:leave="leave">
-              <img name="4" class="img-fluid" v-if="show4" :src="require('@/assets/pjfactory/test_image_4.jpg')" alt="Responsive image">
-          </transition>
-          <button v-if="show4"  class="btn "v-on:click="show2=!show2; show4=!show4; stateIdx=2;  back=true;" style="position: absolute; left: calc( 50% - 50px ); top:calc( 80% - 50px );" >
-            <img :src="require('@/assets/pjfactory/back.png')">
-          </button>
-        </div> -->
+      
