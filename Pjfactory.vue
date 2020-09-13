@@ -3,11 +3,6 @@
 
     <div class="container-fluid">
 
-
-
-
-
-
         <div style="position: absolute;" v-for="node in tree">
           <transition v-on:enter="enter" v-on:leave="leave">
           <img :name="node.idx" class="img-fluid" v-if="node.show" :src="require('@/assets/pjfactory/test_image_'+node.idx+'.jpeg')"  alt="Responsive image">
@@ -161,12 +156,6 @@
     </script>
 
     <style lang="scss">
-    .pjfactory{
-      position: static;
-      height:1080 !important;
-      width:1920 !important;
-      display: inline;
-    }
 
     </style>
       
